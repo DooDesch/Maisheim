@@ -48,6 +48,10 @@ thedefside, NemOmo
 
 
 #Changelog:
+- v0.0.15
+	- Moved config files to "BepInEx/config"
+	- Automatically create a folder "Forgotten_Biomes" in "BepInEx/config"
+	- Copy loc/veg config files in new folder at first launch
 - v0.0.14
 	- Removed vegetation not in Mistland by default.
 	- Added Vanilla Mistland vegetation to generation

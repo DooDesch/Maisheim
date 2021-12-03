@@ -45,10 +45,10 @@
         "NoRoll": true
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Rare" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Epic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 }
+        "Magic" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 },
+        "Rare" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 },
+        "Epic" : { "MinValue" : 20, "MaxValue" : 25, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 25, "MaxValue" : 30, "Increment" : 1 }
       },
       "SelectionWeight" : 1,
       "Comment" : "Can't be rolled. Too powerful?"
@@ -72,12 +72,12 @@
         "ItemHasPhysicalDamage" : true
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Rare" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Epic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 }
+        "Magic" : { "MinValue" : 5, "MaxValue" : 15, "Increment" : 2 },
+        "Rare" : { "MinValue" : 15, "MaxValue" : 30, "Increment" : 2 },
+        "Epic" : { "MinValue" : 30, "MaxValue" : 40, "Increment" : 2 },
+        "Legendary" : { "MinValue" : 40, "MaxValue" : 50, "Increment" : 2 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 10,
       "Prefixes": [
         "$mod_epicloot_me_modifyphysicaldamage_prefix1",
         "$mod_epicloot_me_modifyphysicaldamage_prefix2",
@@ -118,12 +118,12 @@
         "ItemHasElementalDamage" : true
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Rare" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Epic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 }
+        "Magic" : { "MinValue" : 5, "MaxValue" : 15, "Increment" : 2 },
+        "Rare" : { "MinValue" : 15, "MaxValue" : 30, "Increment" : 2 },
+        "Epic" : { "MinValue" : 30, "MaxValue" : 40, "Increment" : 2 },
+        "Legendary" : { "MinValue" : 40, "MaxValue" : 50, "Increment" : 2 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 8,
       "Prefixes": [
         "$mod_epicloot_me_modifyelementaldamage_prefix1",
         "$mod_epicloot_me_modifyelementaldamage_prefix2",
@@ -164,11 +164,11 @@
         "ItemUsesDurability" : true
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 50, "MaxValue" : 100, "Increment" : 5 },
-        "Rare" : { "MinValue" : 50, "MaxValue" : 100, "Increment" : 5 },
-        "Epic" : { "MinValue" : 50, "MaxValue" : 100, "Increment" : 5 }
+        "Magic" : { "MinValue" : 25, "MaxValue" : 50, "Increment" : 5 },
+        "Rare" : { "MinValue" : 50, "MaxValue" : 75, "Increment" : 5 },
+        "Epic" : { "MinValue" : 75, "MaxValue" : 100, "Increment" : 5 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 12,
       "Prefixes": [
         "$mod_epicloot_me_modifydurability_prefix1",
         "$mod_epicloot_me_modifydurability_prefix2",
@@ -208,11 +208,11 @@
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 70, "MaxValue" : 90, "Increment" : 5 },
-        "Rare" : { "MinValue" : 70, "MaxValue" : 90, "Increment" : 5 },
-        "Epic" : { "MinValue" : 70, "MaxValue" : 90, "Increment" : 5 }
+        "Magic" : { "MinValue" : 25, "MaxValue" : 50, "Increment" : 5 },
+        "Rare" : { "MinValue" : 50, "MaxValue" : 75, "Increment" : 5 },
+        "Epic" : { "MinValue" : 75, "MaxValue" : 100, "Increment" : 5 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 10,
       "Prefixes": [
         "$mod_epicloot_me_reduceweight_prefix1",
         "$mod_epicloot_me_reduceweight_prefix2"
@@ -265,12 +265,12 @@
         "ItemHasBlockPower" : true
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Rare" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Epic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 }
+        "Magic" : { "MinValue" : 15, "MaxValue" : 30, "Increment" : 3 },
+        "Rare" : { "MinValue" : 30, "MaxValue" : 45, "Increment" : 3 },
+        "Epic" : { "MinValue" : 45, "MaxValue" : 60, "Increment" : 3 },
+        "Legendary" : { "MinValue" : 60, "MaxValue" : 75, "Increment" : 3 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 12,
       "Prefixes": [
         "$mod_epicloot_me_modifyblockpower_prefix1",
         "$mod_epicloot_me_modifyblockpower_prefix2"
@@ -298,12 +298,12 @@
         "ItemHasParryPower" : true
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Rare" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Epic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 }
+        "Magic" : { "MinValue" : 5, "MaxValue" : 15, "Increment" : 3 },
+        "Rare" : { "MinValue" : 15, "MaxValue" : 30, "Increment" : 3 },
+        "Epic" : { "MinValue" : 30, "MaxValue" : 45, "Increment" : 3 },
+        "Legendary" : { "MinValue" : 45, "MaxValue" : 60, "Increment" : 3 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 12,
       "Prefixes": [
         "$mod_epicloot_me_modifyparry_prefix1",
         "$mod_epicloot_me_modifyparry_prefix2"
@@ -327,12 +327,12 @@
         "ItemHasArmor" : true
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Rare" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Epic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 }
+        "Magic" : { "MinValue" : 5, "MaxValue" : 15, "Increment" : 2 },
+        "Rare" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 2 },
+        "Epic" : { "MinValue" : 25, "MaxValue" : 35, "Increment" : 2 },
+        "Legendary" : { "MinValue" : 35, "MaxValue" : 45, "Increment" : 2 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 12,
       "Prefixes": [
         "$mod_epicloot_me_modifyarmor_prefix1",
         "$mod_epicloot_me_modifyarmor_prefix2"
@@ -353,12 +353,12 @@
         "ItemHasBackstabBonus" : true
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Rare" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Epic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 }
+        "Magic" : { "MinValue" : 5, "MaxValue" : 15, "Increment" : 2 },
+        "Rare" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 2 },
+        "Epic" : { "MinValue" : 25, "MaxValue" : 35, "Increment" : 2 },
+        "Legendary" : { "MinValue" : 35, "MaxValue" : 45, "Increment" : 2 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 6,
       "Prefixes": [
         "$mod_epicloot_me_modifybackstab_prefix1",
         "$mod_epicloot_me_modifybackstab_prefix2"
@@ -383,12 +383,12 @@
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 10, "MaxValue" : 25, "Increment" : 5 },
-        "Rare" : { "MinValue" : 15, "MaxValue" : 30, "Increment" : 5 },
-        "Epic" : { "MinValue" : 20, "MaxValue" : 35, "Increment" : 5 },
-        "Legendary" : { "MinValue" : 25, "MaxValue" : 50, "Increment" : 5 }
+        "Magic" : { "MinValue" : 10, "MaxValue" : 30, "Increment" : 5 },
+        "Rare" : { "MinValue" : 30, "MaxValue" : 45, "Increment" : 5 },
+        "Epic" : { "MinValue" : 45, "MaxValue" : 60, "Increment" : 5 },
+        "Legendary" : { "MinValue" : 60, "MaxValue" : 75, "Increment" : 5 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 12,
       "Prefixes": [
         "$mod_epicloot_me_increasehealth_prefix1"
       ],
@@ -411,12 +411,12 @@
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 10, "MaxValue" : 25, "Increment" : 5 },
-        "Rare" : { "MinValue" : 15, "MaxValue" : 30, "Increment" : 5 },
-        "Epic" : { "MinValue" : 20, "MaxValue" : 35, "Increment" : 5 },
-        "Legendary" : { "MinValue" : 25, "MaxValue" : 50, "Increment" : 5 }
+        "Magic" : { "MinValue" : 10, "MaxValue" : 30, "Increment" : 5 },
+        "Rare" : { "MinValue" : 30, "MaxValue" : 45, "Increment" : 5 },
+        "Epic" : { "MinValue" : 45, "MaxValue" : 60, "Increment" : 5 },
+        "Legendary" : { "MinValue" : 60, "MaxValue" : 75, "Increment" : 5 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 10,
       "Prefixes": [
         "$mod_epicloot_me_increasestamina_prefix1"
       ],
@@ -438,12 +438,12 @@
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Rare" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Epic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 }
+        "Magic" : { "MinValue" : 5, "MaxValue" : 15, "Increment" : 2 },
+        "Rare" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 2 },
+        "Epic" : { "MinValue" : 25, "MaxValue" : 35, "Increment" : 2 },
+        "Legendary" : { "MinValue" : 35, "MaxValue" : 45, "Increment" : 2 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 6,
       "Prefixes": [
         "$mod_epicloot_me_modifyhealthregen_prefix1"
       ],
@@ -494,12 +494,12 @@
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Rare" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Epic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 }
+        "Magic" : { "MinValue" : 5, "MaxValue" : 15, "Increment" : 2 },
+        "Rare" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 2 },
+        "Epic" : { "MinValue" : 25, "MaxValue" : 35, "Increment" : 2 },
+        "Legendary" : { "MinValue" : 35, "MaxValue" : 45, "Increment" : 2 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 6,
       "Prefixes": [
         "$mod_epicloot_me_modifystaminaregen_prefix1"
       ],
@@ -533,12 +533,12 @@
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
+        "Magic" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
+        "Rare" : { "MinValue" : 9, "MaxValue" : 14, "Increment" : 1 },
+        "Epic" : { "MinValue" : 15, "MaxValue" : 21, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 22, "MaxValue" : 30, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 8,
       "Prefixes": [
         "$mod_epicloot_me_addbluntdamage_prefix1"
       ],
@@ -572,12 +572,12 @@
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
+        "Magic" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
+        "Rare" : { "MinValue" : 9, "MaxValue" : 14, "Increment" : 1 },
+        "Epic" : { "MinValue" : 15, "MaxValue" : 21, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 22, "MaxValue" : 30, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 8,
       "Prefixes": [
         "$mod_epicloot_me_addslashingdamage_prefix1",
         "$mod_epicloot_me_addslashingdamage_prefix2"
@@ -610,12 +610,12 @@
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
+        "Magic" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
+        "Rare" : { "MinValue" : 9, "MaxValue" : 14, "Increment" : 1 },
+        "Epic" : { "MinValue" : 15, "MaxValue" : 21, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 22, "MaxValue" : 30, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 8,
       "Prefixes": [
         "$mod_epicloot_me_addpiercingdamage_prefix1",
         "$mod_epicloot_me_addpiercingdamage_prefix2"
@@ -650,12 +650,12 @@
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
+        "Magic" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
+        "Rare" : { "MinValue" : 9, "MaxValue" : 14, "Increment" : 1 },
+        "Epic" : { "MinValue" : 15, "MaxValue" : 21, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 22, "MaxValue" : 30, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 6,
       "Prefixes": [
         "$mod_epicloot_me_addfiredamage_prefix1"
       ],
@@ -689,12 +689,12 @@
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
+        "Magic" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
+        "Rare" : { "MinValue" : 9, "MaxValue" : 14, "Increment" : 1 },
+        "Epic" : { "MinValue" : 15, "MaxValue" : 21, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 22, "MaxValue" : 30, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 6,
       "Prefixes": [
         "$mod_epicloot_me_addfrostdamage_prefix1"
       ],
@@ -728,12 +728,12 @@
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
+        "Magic" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
+        "Rare" : { "MinValue" : 9, "MaxValue" : 14, "Increment" : 1 },
+        "Epic" : { "MinValue" : 15, "MaxValue" : 21, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 22, "MaxValue" : 30, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 6,
       "Prefixes": [
         "$mod_epicloot_me_addlightningdamage_prefix1"
       ],
@@ -767,12 +767,12 @@
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 2, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 4, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 8, "MaxValue" : 15, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
+        "Magic" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
+        "Rare" : { "MinValue" : 9, "MaxValue" : 14, "Increment" : 1 },
+        "Epic" : { "MinValue" : 15, "MaxValue" : 21, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 22, "MaxValue" : 30, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 6,
       "Prefixes": [
         "$mod_epicloot_me_addpoisondamage_prefix1"
       ],
@@ -806,12 +806,12 @@
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
+        "Magic" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
+        "Rare" : { "MinValue" : 9, "MaxValue" : 14, "Increment" : 1 },
+        "Epic" : { "MinValue" : 15, "MaxValue" : 21, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 22, "MaxValue" : 30, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 5,
       "Prefixes": [
         "$mod_epicloot_me_addspiritdamage_prefix1"
       ],
@@ -824,14 +824,9 @@
       "DisplayText" : "$mod_epicloot_me_addfireresistance_display",
       "Description" : "$mod_epicloot_me_addfireresistance_desc",
       "Requirements" : {
-        "NoRoll": true,
         "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-          "Legs",
           "Shoulder",
-          "Utility",
-          "Shield"
+          "Utility"
         ]
       },
       "SelectionWeight" : 1,
@@ -847,14 +842,9 @@
       "DisplayText" : "$mod_epicloot_me_addfrostresistance_display",
       "Description" : "$mod_epicloot_me_addfrostresistance_desc",
       "Requirements" : {
-        "NoRoll": true,
         "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-          "Legs",
           "Shoulder",
-          "Utility",
-          "Shield"
+          "Utility"
         ]
       },
       "SelectionWeight" : 1,
@@ -872,12 +862,8 @@
       "Requirements" : {
         "NoRoll": true,
         "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-          "Legs",
           "Shoulder",
-          "Utility",
-          "Shield"
+          "Utility"
         ]
       },
       "SelectionWeight" : 1,
@@ -893,14 +879,9 @@
       "DisplayText" : "$mod_epicloot_me_addpoisonresistance_display",
       "Description" : "$mod_epicloot_me_addpoisonresistance_desc",
       "Requirements" : {
-        "NoRoll": true,
         "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-          "Legs",
           "Shoulder",
-          "Utility",
-          "Shield"
+          "Utility"
         ]
       },
       "SelectionWeight" : 1,
@@ -918,12 +899,8 @@
       "Requirements" : {
         "NoRoll": true,
         "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-          "Legs",
           "Shoulder",
-          "Utility",
-          "Shield"
+          "Utility"
         ]
       },
       "SelectionWeight" : 1,
@@ -940,21 +917,16 @@
       "Description" : "$mod_epicloot_me_addfireresistancepercentage_desc",
       "Requirements" : {
         "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-          "Legs",
-          "Shoulder",
-          "Utility",
-          "Shield"
+          "Helmet"
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
+        "Magic" : { "MinValue" : 1, "MaxValue" : 7, "Increment" : 1 },
+        "Rare" : { "MinValue" : 8, "MaxValue" : 16, "Increment" : 1 },
+        "Epic" : { "MinValue" : 17, "MaxValue" : 24, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 25, "MaxValue" : 33, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 5,
       "Prefixes": [
         "$mod_epicloot_me_addfireresistance_prefix1"
       ],
@@ -968,21 +940,16 @@
       "Description" : "$mod_epicloot_me_addfrostresistancepercentage_desc",
       "Requirements" : {
         "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-          "Legs",
-          "Shoulder",
-          "Utility",
-          "Shield"
+          "Chest"
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
+        "Magic" : { "MinValue" : 1, "MaxValue" : 7, "Increment" : 1 },
+        "Rare" : { "MinValue" : 8, "MaxValue" : 16, "Increment" : 1 },
+        "Epic" : { "MinValue" : 17, "MaxValue" : 24, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 25, "MaxValue" : 33, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 5,
       "Prefixes": [
         "$mod_epicloot_me_addfrostresistance_prefix1"
       ],
@@ -996,21 +963,16 @@
       "Description" : "$mod_epicloot_me_addlightningresistancepercentage_desc",
       "Requirements" : {
         "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-          "Legs",
-          "Shoulder",
-          "Utility",
-          "Shield"
+          "Legs"
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
+        "Magic" : { "MinValue" : 1, "MaxValue" : 7, "Increment" : 1 },
+        "Rare" : { "MinValue" : 8, "MaxValue" : 16, "Increment" : 1 },
+        "Epic" : { "MinValue" : 17, "MaxValue" : 24, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 25, "MaxValue" : 33, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 5,
       "Prefixes": [
         "$mod_epicloot_me_addlightningresistance_prefix1"
       ],
@@ -1024,21 +986,16 @@
       "Description" : "$mod_epicloot_me_addpoisonresistancepercentage_desc",
       "Requirements" : {
         "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-          "Legs",
-          "Shoulder",
-          "Utility",
-          "Shield"
+          "Shoulder"
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
+        "Magic" : { "MinValue" : 1, "MaxValue" : 7, "Increment" : 1 },
+        "Rare" : { "MinValue" : 8, "MaxValue" : 16, "Increment" : 1 },
+        "Epic" : { "MinValue" : 17, "MaxValue" : 24, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 25, "MaxValue" : 33, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 5,
       "Prefixes": [
         "$mod_epicloot_me_addpoisonresistance_prefix1"
       ],
@@ -1053,21 +1010,16 @@
       "Requirements" : {
         "NoRoll": true,
         "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-          "Legs",
-          "Shoulder",
-          "Utility",
-          "Shield"
+          "Utility"
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
+        "Magic" : { "MinValue" : 1, "MaxValue" : 7, "Increment" : 1 },
+        "Rare" : { "MinValue" : 8, "MaxValue" : 16, "Increment" : 1 },
+        "Epic" : { "MinValue" : 17, "MaxValue" : 24, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 25, "MaxValue" : 33, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 3,
       "Prefixes": [
         "$mod_epicloot_me_addspiritresistance_prefix1"
       ],
@@ -1081,21 +1033,16 @@
       "Description" : "$mod_epicloot_me_addelementalresistancepercentage_desc",
       "Requirements" : {
         "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-          "Legs",
-          "Shoulder",
-          "Utility",
           "Shield"
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 1, "MaxValue" : 2, "Increment" : 1 },
-        "Rare" : { "MinValue" : 2, "MaxValue" : 4, "Increment" : 1 },
-        "Epic" : { "MinValue" : 4, "MaxValue" : 7, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 8, "MaxValue" : 10, "Increment" : 1 }
+        "Magic" : { "MinValue" : 1, "MaxValue" : 7, "Increment" : 1 },
+        "Rare" : { "MinValue" : 8, "MaxValue" : 16, "Increment" : 1 },
+        "Epic" : { "MinValue" : 17, "MaxValue" : 24, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 25, "MaxValue" : 33, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 5,
       "Prefixes": [
         "$mod_epicloot_me_addelementalresistancepercentage_prefix1"
       ],
@@ -1109,21 +1056,16 @@
       "Description" : "$mod_epicloot_me_addbluntresistancepercentage_desc",
       "Requirements" : {
         "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-          "Legs",
-          "Shoulder",
-          "Utility",
-          "Shield"
+          "Helmet"
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
+        "Magic" : { "MinValue" : 1, "MaxValue" : 7, "Increment" : 1 },
+        "Rare" : { "MinValue" : 8, "MaxValue" : 16, "Increment" : 1 },
+        "Epic" : { "MinValue" : 17, "MaxValue" : 24, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 25, "MaxValue" : 33, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 5,
       "Prefixes": [
         "$mod_epicloot_me_addbluntresistancepercentage_prefix1"
       ],
@@ -1137,21 +1079,16 @@
       "Description" : "$mod_epicloot_me_addslashingresistancepercentage_desc",
       "Requirements" : {
         "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-          "Legs",
-          "Shoulder",
-          "Utility",
-          "Shield"
+          "Legs"
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
+        "Magic" : { "MinValue" : 1, "MaxValue" : 7, "Increment" : 1 },
+        "Rare" : { "MinValue" : 8, "MaxValue" : 16, "Increment" : 1 },
+        "Epic" : { "MinValue" : 17, "MaxValue" : 24, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 25, "MaxValue" : 33, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 5,
       "Prefixes": [
         "$mod_epicloot_me_addslashingresistancepercentage_prefix1"
       ],
@@ -1165,21 +1102,16 @@
       "Description" : "$mod_epicloot_me_addpiercingresistancepercentage_desc",
       "Requirements" : {
         "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-          "Legs",
-          "Shoulder",
-          "Utility",
-          "Shield"
+          "Chest"
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
+        "Magic" : { "MinValue" : 1, "MaxValue" : 7, "Increment" : 1 },
+        "Rare" : { "MinValue" : 8, "MaxValue" : 16, "Increment" : 1 },
+        "Epic" : { "MinValue" : 17, "MaxValue" : 24, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 25, "MaxValue" : 33, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 5,
       "Prefixes": [
         "$mod_epicloot_me_addpiercingresistancepercentage_prefix1"
       ],
@@ -1194,21 +1126,16 @@
       "Requirements" : {
         "NoRoll": true, 
         "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-          "Legs",
-          "Shoulder",
-          "Utility",
-          "Shield"
+          "Shoulder"
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
+        "Magic" : { "MinValue" : 1, "MaxValue" : 7, "Increment" : 1 },
+        "Rare" : { "MinValue" : 8, "MaxValue" : 16, "Increment" : 1 },
+        "Epic" : { "MinValue" : 17, "MaxValue" : 24, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 25, "MaxValue" : 33, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 5,
       "Prefixes": [
         "$mod_epicloot_me_addchoppingresistancepercentage_prefix1"
       ],
@@ -1222,21 +1149,16 @@
       "Description" : "$mod_epicloot_me_addphysicalresistancepercentage_desc",
       "Requirements" : {
         "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-          "Legs",
-          "Shoulder",
-          "Utility",
           "Shield"
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 1, "MaxValue" : 2, "Increment" : 1 },
-        "Rare" : { "MinValue" : 2, "MaxValue" : 4, "Increment" : 1 },
-        "Epic" : { "MinValue" : 4, "MaxValue" : 7, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 8, "MaxValue" : 10, "Increment" : 1 }
+        "Magic" : { "MinValue" : 1, "MaxValue" : 7, "Increment" : 1 },
+        "Rare" : { "MinValue" : 8, "MaxValue" : 16, "Increment" : 1 },
+        "Epic" : { "MinValue" : 17, "MaxValue" : 24, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 25, "MaxValue" : 33, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 3,
       "Prefixes": [
         "$mod_epicloot_me_addphysicalresistancepercentage_prefix1"
       ],
@@ -1259,11 +1181,11 @@
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 5, "MaxValue" : 10, "Increment" : 1 },
-        "Rare" : { "MinValue" : 6, "MaxValue" : 11, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 12, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 8, "MaxValue" : 13, "Increment" : 1 }
+        "Rare" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
+        "Epic" : { "MinValue" : 17, "MaxValue" : 22, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 23, "MaxValue" : 30, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 6,
       "Prefixes": [
         "$mod_epicloot_me_modifymovementspeed_prefix1"
       ],
@@ -1282,12 +1204,12 @@
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 5, "MaxValue" : 10, "Increment" : 1 },
-        "Rare" : { "MinValue" : 8, "MaxValue" : 13, "Increment" : 1 },
-        "Epic" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 14, "MaxValue" : 19, "Increment" : 1 }
+        "Magic" : { "MinValue" : 5, "MaxValue" : 15, "Increment" : 2 },
+        "Rare" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 2 },
+        "Epic" : { "MinValue" : 25, "MaxValue" : 35, "Increment" : 2 },
+        "Legendary" : { "MinValue" : 35, "MaxValue" : 45, "Increment" : 2 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 8,
       "Prefixes": [
         "$mod_epicloot_me_modifysprintstaminause_prefix1"
       ],
@@ -1300,18 +1222,15 @@
       "DisplayText" : "$mod_epicloot_me_modifyjumpstaminause_display",
       "Description" : "$mod_epicloot_me_modifyjumpstaminause_desc",
       "Requirements" : {
-        "AllowedItemTypes" : [
-          "Legs",
-          "Utility"
-        ]
+        "NoRoll": true
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 5, "MaxValue" : 10, "Increment" : 1 },
-        "Rare" : { "MinValue" : 8, "MaxValue" : 13, "Increment" : 1 },
-        "Epic" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 14, "MaxValue" : 19, "Increment" : 1 }
+        "Magic" : { "MinValue" : 5, "MaxValue" : 15, "Increment" : 2 },
+        "Rare" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 2 },
+        "Epic" : { "MinValue" : 25, "MaxValue" : 35, "Increment" : 2 },
+        "Legendary" : { "MinValue" : 35, "MaxValue" : 45, "Increment" : 2 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 8,
       "Prefixes": [
         "$mod_epicloot_me_modifyjumpstaminause_prefix1"
       ],
@@ -1328,18 +1247,17 @@
           "OneHandedWeapon",
           "TwoHandedWeapon",
           "Bow",
-          "Torch",
-          "Tool"
+          "Torch"
         ],
         "ItemUsesStaminaOnAttack" : true
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 5, "MaxValue" : 10, "Increment" : 1 },
-        "Rare" : { "MinValue" : 8, "MaxValue" : 13, "Increment" : 1 },
-        "Epic" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 14, "MaxValue" : 19, "Increment" : 1 }
+        "Magic" : { "MinValue" : 5, "MaxValue" : 15, "Increment" : 2 },
+        "Rare" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 2 },
+        "Epic" : { "MinValue" : 25, "MaxValue" : 35, "Increment" : 2 },
+        "Legendary" : { "MinValue" : 35, "MaxValue" : 45, "Increment" : 2 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 10,
       "Prefixes": [
         "$mod_epicloot_me_modifyattackstaminause_prefix1"
       ],
@@ -1358,12 +1276,12 @@
         "ItemHasBlockPower" : true
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 5, "MaxValue" : 10, "Increment" : 1 },
-        "Rare" : { "MinValue" : 8, "MaxValue" : 13, "Increment" : 1 },
-        "Epic" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 14, "MaxValue" : 19, "Increment" : 1 }
+        "Magic" : { "MinValue" : 5, "MaxValue" : 15, "Increment" : 2 },
+        "Rare" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 2 },
+        "Epic" : { "MinValue" : 25, "MaxValue" : 35, "Increment" : 2 },
+        "Legendary" : { "MinValue" : 35, "MaxValue" : 50, "Increment" : 3 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 10,
       "Prefixes": [
         "$mod_epicloot_me_modifyblockstaminause_prefix1"
       ],
@@ -1439,18 +1357,15 @@
       "Description" : "$mod_epicloot_me_addcarryweight_desc",
       "Requirements" : {
         "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-          "Legs",
           "Shoulder",
           "Utility"
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 5, "MaxValue" : 10, "Increment" : 5 },
-        "Rare" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 5 },
-        "Epic" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 5 },
-        "Legendary" : { "MinValue" : 20, "MaxValue" : 50, "Increment" : 5 }
+        "Magic" : { "MinValue" : 25, "MaxValue" : 75, "Increment" : 5 },
+        "Rare" : { "MinValue" : 75, "MaxValue" : 125, "Increment" : 5 },
+        "Epic" : { "MinValue" : 125, "MaxValue" : 175, "Increment" : 5 },
+        "Legendary" : { "MinValue" : 175, "MaxValue" : 225, "Increment" : 5 }
       },
       "SelectionWeight" : 1,
       "Prefixes": [
@@ -1507,11 +1422,11 @@
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 5, "MaxValue" : 10, "Increment" : 1 },
-        "Rare" : { "MinValue" : 8, "MaxValue" : 13, "Increment" : 1 },
-        "Epic" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 14, "MaxValue" : 19, "Increment" : 1 }
+        "Rare" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
+        "Epic" : { "MinValue" : 17, "MaxValue" : 22, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 22, "MaxValue" : 27, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 6,
       "Prefixes": [
         "$mod_epicloot_me_modifyattackspeed_prefix1"
       ],
@@ -1546,9 +1461,7 @@
       "DisplayText" : "$mod_epicloot_me_waterproof_display",
       "Description" : "$mod_epicloot_me_waterproof_desc",
       "Requirements" : {
-        "AllowedItemTypes" : [
-          "Shoulder"
-        ]
+        "NoRoll": true
       },
       "SelectionWeight" : 1,
       "Prefixes": [
@@ -1564,20 +1477,12 @@
       "Description" : "$mod_epicloot_me_paralyze_desc",
       "Requirements" : {
         "NoRoll": true,
-        "AllowedItemTypes" : [
-          "OneHandedWeapon",
-          "TwoHandedWeapon",
-          "Bow"
-        ],
-        "ExcludedSkillTypes": [
-          "Pickaxes"
-        ]
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 0.5, "MaxValue" : 2, "Increment" : 0.5 },
         "Rare" : { "MinValue" : 1, "MaxValue" : 2.5, "Increment" : 0.5 },
         "Epic" : { "MinValue" : 1.5, "MaxValue" : 3, "Increment" : 0.5 },
-        "Legendary" : { "MinValue" : 2, "MaxValue" : 4, "Increment" : 0.5 }
+        "Legendary" : { "MinValue" : 3, "MaxValue" : 4, "Increment" : 0.5 }
       },
       "SelectionWeight" : 1,
       "Prefixes": [
@@ -1592,13 +1497,7 @@
       "DisplayText" : "$mod_epicloot_me_doublejump_display",
       "Description" : "$mod_epicloot_me_doublejump_desc",
       "Requirements" : {
-        "AllowedItemTypes" : [
-          "Legs"
-        ],
-        "AllowedRarities" : [
-          "Epic",
-          "Legendary"
-        ]
+        "NoRoll": true
       },
       "SelectionWeight" : 1,
       "Prefixes": [
@@ -1630,20 +1529,15 @@
       "DisplayText" : "$mod_epicloot_me_explosivearrows_display",
       "Description" : "$mod_epicloot_me_explosivearrows_desc",
       "Requirements" : {
-        "AllowedItemTypes" : [
-          "Bow"
-        ],
-        "ExcludedSkillTypes": [
-          "Pickaxes"
-        ]
+        "NoRoll": true
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
+        "Rare" : { "MinValue" : 5, "MaxValue" : 9, "Increment" : 1 },
+        "Epic" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 2,
       "Prefixes": [
         "$mod_epicloot_me_explosivearrows_prefix1"
       ],
@@ -1656,20 +1550,15 @@
       "DisplayText" : "$mod_epicloot_me_quickdraw_display",
       "Description" : "$mod_epicloot_me_quickdraw_desc",
       "Requirements" : {
-        "AllowedItemTypes" : [
-          "Bow"
-        ],
-        "ExcludedSkillTypes": [
-          "Pickaxes"
-        ]
+        "NoRoll": true
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 2, "MaxValue" : 8, "Increment" : 1 },
-        "Rare" : { "MinValue" : 6, "MaxValue" : 16, "Increment" : 1 },
-        "Epic" : { "MinValue" : 14, "MaxValue" : 30, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 30, "MaxValue" : 40, "Increment" : 1 }
+        "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
+        "Rare" : { "MinValue" : 5, "MaxValue" : 9, "Increment" : 1 },
+        "Epic" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 2,
       "Prefixes": [
         "$mod_epicloot_me_quickdraw_prefix1"
       ],
@@ -1691,11 +1580,11 @@
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
+        "Rare" : { "MinValue" : 5, "MaxValue" : 9, "Increment" : 1 },
+        "Epic" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 2,
       "Prefixes": [
         "$mod_epicloot_me_addswordsskill_prefix1"
       ],
@@ -1714,11 +1603,11 @@
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
+        "Rare" : { "MinValue" : 5, "MaxValue" : 9, "Increment" : 1 },
+        "Epic" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 2,
       "Prefixes": [
         "$mod_epicloot_me_addknivesskill_prefix1"
       ],
@@ -1737,11 +1626,11 @@
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
+        "Rare" : { "MinValue" : 5, "MaxValue" : 9, "Increment" : 1 },
+        "Epic" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 2,
       "Prefixes": [
         "$mod_epicloot_me_addclubsskill_prefix1"
       ],
@@ -1760,11 +1649,11 @@
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
+        "Rare" : { "MinValue" : 5, "MaxValue" : 9, "Increment" : 1 },
+        "Epic" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 2,
       "Prefixes": [
         "$mod_epicloot_me_addpolearmsskill_prefix1"
       ],
@@ -1783,11 +1672,11 @@
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
+        "Rare" : { "MinValue" : 5, "MaxValue" : 9, "Increment" : 1 },
+        "Epic" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 2,
       "Prefixes": [
         "$mod_epicloot_me_addspearsskill_prefix1"
       ],
@@ -1806,11 +1695,11 @@
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
+        "Rare" : { "MinValue" : 5, "MaxValue" : 9, "Increment" : 1 },
+        "Epic" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 2,
       "Prefixes": [
         "$mod_epicloot_me_addblockingskill_prefix1"
       ],
@@ -1829,11 +1718,11 @@
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
+        "Rare" : { "MinValue" : 5, "MaxValue" : 9, "Increment" : 1 },
+        "Epic" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 2,
       "Prefixes": [
         "$mod_epicloot_me_addaxesskill_prefix1"
       ],
@@ -1852,11 +1741,11 @@
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
+        "Rare" : { "MinValue" : 5, "MaxValue" : 9, "Increment" : 1 },
+        "Epic" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 2,
       "Prefixes": [
         "$mod_epicloot_me_addbowsskill_prefix1"
       ],
@@ -1876,11 +1765,11 @@
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
+        "Rare" : { "MinValue" : 5, "MaxValue" : 9, "Increment" : 1 },
+        "Epic" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 2,
       "Prefixes": [
         "$mod_epicloot_me_addunarmedskill_prefix1"
       ],
@@ -1899,8 +1788,8 @@
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
+        "Rare" : { "MinValue" : 5, "MaxValue" : 9, "Increment" : 1 },
+        "Epic" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
       },
       "SelectionWeight" : 1,
@@ -1917,7 +1806,6 @@
       "Description" : "$mod_epicloot_me_addmovementskills_desc",
       "Requirements" : {
         "AllowedItemTypes" : [
-          "Chest",
           "Legs",
           "Shoulder",
           "Utility"
@@ -1925,11 +1813,11 @@
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 1, "MaxValue" : 4, "Increment" : 1 },
-        "Rare" : { "MinValue" : 3, "MaxValue" : 8, "Increment" : 1 },
-        "Epic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
+        "Rare" : { "MinValue" : 5, "MaxValue" : 9, "Increment" : 1 },
+        "Epic" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 2,
       "Prefixes": [
         "$mod_epicloot_me_addmovementskills_prefix1"
       ],
@@ -1953,12 +1841,12 @@
         ]
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 5, "MaxValue" : 10, "Increment" : 1 },
-        "Rare" : { "MinValue" : 8, "MaxValue" : 13, "Increment" : 1 },
-        "Epic" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 14, "MaxValue" : 19, "Increment" : 1 }
+        "Magic" : { "MinValue" : 20, "MaxValue" : 39, "Increment" : 1 },
+        "Rare" : { "MinValue" : 40, "MaxValue" : 59, "Increment" : 1 },
+        "Epic" : { "MinValue" : 60, "MaxValue" : 79, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 80, "MaxValue" : 100, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 2,
       "Prefixes": [
         "$mod_epicloot_me_modifystaggerduration_prefix1"
       ],
@@ -1977,11 +1865,11 @@
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 5, "MaxValue" : 10, "Increment" : 1 },
-        "Rare" : { "MinValue" : 8, "MaxValue" : 13, "Increment" : 1 },
-        "Epic" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 14, "MaxValue" : 19, "Increment" : 1 }
+        "Rare" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
+        "Epic" : { "MinValue" : 17, "MaxValue" : 22, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 22, "MaxValue" : 27, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 2,
       "Prefixes": [ "$mod_epicloot_me_quicklearner_prefix1" ],
       "Suffixes": [ "$mod_epicloot_me_quicklearner_suffix1" ]
     },
@@ -1990,12 +1878,7 @@
       "DisplayText" : "$mod_epicloot_me_freebuild_display",
       "Description" : "$mod_epicloot_me_freebuild_desc",
       "Requirements" : {
-        "AllowedItemNames" : [
-          "$item_hammer"
-        ],
-        "AllowedRarities" : [
-          "Legendary"
-        ]
+        "NoRoll": true
       },
       "SelectionWeight" : 1,
       "Prefixes": [ "$mod_epicloot_me_freebuild_prefix1" ],
@@ -2023,16 +1906,13 @@
       "DisplayText" : "$mod_epicloot_me_reflectdamage_display",
       "Description" : "$mod_epicloot_me_reflectdamage_desc",
       "Requirements" : {
-        "AllowedItemTypes" : [
-          "Chest",
-          "Shield"
-        ]
+        "NoRoll": true
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 5, "MaxValue" : 10, "Increment" : 1 },
-        "Rare" : { "MinValue" : 8, "MaxValue" : 13, "Increment" : 1 },
-        "Epic" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 14, "MaxValue" : 19, "Increment" : 1 }
+        "Rare" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
+        "Epic" : { "MinValue" : 17, "MaxValue" : 22, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 22, "MaxValue" : 27, "Increment" : 1 }
       },
       "SelectionWeight" : 1,
       "Prefixes": [ "$mod_epicloot_me_reflectdamage_prefix1" ],
@@ -2050,9 +1930,9 @@
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 5, "MaxValue" : 10, "Increment" : 1 },
-        "Rare" : { "MinValue" : 8, "MaxValue" : 13, "Increment" : 1 },
-        "Epic" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 14, "MaxValue" : 19, "Increment" : 1 }
+        "Rare" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
+        "Epic" : { "MinValue" : 17, "MaxValue" : 22, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 22, "MaxValue" : 27, "Increment" : 1 }
       },
       "SelectionWeight" : 1,
       "Prefixes": [ "$mod_epicloot_me_avoiddamagetaken_prefix1" ],
@@ -2070,11 +1950,11 @@
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 5, "MaxValue" : 10, "Increment" : 1 },
-        "Rare" : { "MinValue" : 8, "MaxValue" : 13, "Increment" : 1 },
-        "Epic" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 14, "MaxValue" : 19, "Increment" : 1 }
+        "Rare" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
+        "Epic" : { "MinValue" : 17, "MaxValue" : 22, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 22, "MaxValue" : 27, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 3,
       "Prefixes": [ "$mod_epicloot_me_staggerondamagetaken_prefix1" ],
       "Suffixes": [ "$mod_epicloot_me_staggerondamagetaken_suffix1" ]
     },
@@ -2083,9 +1963,7 @@
       "DisplayText" : "$mod_epicloot_me_featherfall_display",
       "Description" : "$mod_epicloot_me_featherfall_desc",
       "Requirements" : {
-        "AllowedItemTypes" : [
-          "Legs"
-        ]
+        "NoRoll": true
       },
       "SelectionWeight" : 1,
       "Prefixes": [ "$mod_epicloot_me_featherfall_prefix1" ],
@@ -2102,11 +1980,11 @@
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 5, "MaxValue" : 10, "Increment" : 1 },
-        "Rare" : { "MinValue" : 8, "MaxValue" : 13, "Increment" : 1 },
-        "Epic" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 14, "MaxValue" : 19, "Increment" : 1 }
+        "Rare" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
+        "Epic" : { "MinValue" : 17, "MaxValue" : 22, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 22, "MaxValue" : 27, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 3,
       "Prefixes": [ "$mod_epicloot_me_modifydiscoveryradius_prefix1" ],
       "Suffixes": [ "$mod_epicloot_me_modifydiscoveryradius_suffix1" ]
     },
@@ -2139,19 +2017,13 @@
       "DisplayText" : "$mod_epicloot_me_modifymovementspeedlowhealth_display",
       "Description" : "$mod_epicloot_me_modifymovementspeedlowhealth_desc",
       "Requirements" : {
-        "ExclusiveEffectTypes" : [
-          "RemoveSpeedPenalty"
-        ],
-        "AllowedItemTypes" : [
-          "Legs",
-          "Utility"
-        ]
+        "NoRoll": true
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 7, "MaxValue" : 12, "Increment" : 1 },
-        "Rare" : { "MinValue" : 8, "MaxValue" : 13, "Increment" : 1 },
-        "Epic" : { "MinValue" : 9, "MaxValue" : 14, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 }
+        "Magic" : { "MinValue" : 5, "MaxValue" : 10, "Increment" : 1 },
+        "Rare" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
+        "Epic" : { "MinValue" : 17, "MaxValue" : 22, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 22, "MaxValue" : 27, "Increment" : 1 }
       },
       "SelectionWeight" : 1,
       "Prefixes": [
@@ -2166,19 +2038,13 @@
       "DisplayText" : "$mod_epicloot_me_modifyhealthregenlowhealth_display",
       "Description" : "$mod_epicloot_me_modifyhealthregenlowhealth_desc",
       "Requirements" : {
-        "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-          "Legs",
-          "Shoulder",
-          "Utility"
-        ]
+        "NoRoll": true
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 },
-        "Rare" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 },
-        "Epic" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 25, "MaxValue" : 30, "Increment" : 1 }
+        "Magic" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 },
+        "Rare" : { "MinValue" : 16, "MaxValue" : 21, "Increment" : 1 },
+        "Epic" : { "MinValue" : 22, "MaxValue" : 27, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 28, "MaxValue" : 33, "Increment" : 1 }
       },
       "SelectionWeight" : 1,
       "Prefixes": [
@@ -2193,20 +2059,13 @@
       "DisplayText" : "$mod_epicloot_me_modifystaminaregenlowhealth_display",
       "Description" : "$mod_epicloot_me_modifystaminaregenlowhealth_desc",
       "Requirements" : {
-        "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-          "Legs",
-          "Shoulder",
-          "Utility",
-          "Tool"
-        ]
+        "NoRoll": true
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 },
-        "Rare" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 },
-        "Epic" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 25, "MaxValue" : 30, "Increment" : 1 }
+        "Magic" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 },
+        "Rare" : { "MinValue" : 16, "MaxValue" : 21, "Increment" : 1 },
+        "Epic" : { "MinValue" : 22, "MaxValue" : 27, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 28, "MaxValue" : 33, "Increment" : 1 }
       },
       "SelectionWeight" : 1,
       "Prefixes": [
@@ -2221,20 +2080,13 @@
       "DisplayText" : "$mod_epicloot_me_modifyarmorlowhealth_display",
       "Description" : "$mod_epicloot_me_modifyarmorlowhealth_desc",
       "Requirements" : {
-        "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-          "Legs",
-          "Shoulder",
-          "Utility"
-        ],
-        "ItemHasArmor" : true
+        "NoRoll": true
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 },
-        "Rare" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 },
-        "Epic" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 25, "MaxValue" : 30, "Increment" : 1 }
+        "Magic" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 },
+        "Rare" : { "MinValue" : 16, "MaxValue" : 21, "Increment" : 1 },
+        "Epic" : { "MinValue" : 22, "MaxValue" : 27, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 28, "MaxValue" : 33, "Increment" : 1 }
       },
       "SelectionWeight" : 1,
       "Prefixes": [
@@ -2250,20 +2102,13 @@
       "DisplayText" : "$mod_epicloot_me_modifydamagelowhealth_display",
       "Description" : "$mod_epicloot_me_modifydamagelowhealth_desc",
       "Requirements" : {
-        "AllowedItemTypes" : [
-          "OneHandedWeapon",
-          "TwoHandedWeapon",
-          "Bow"
-        ],
-        "ExcludedSkillTypes": [
-          "Pickaxes"
-        ]
+        "NoRoll": true
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 3, "MaxValue" : 6, "Increment" : 1 },
-        "Rare" : { "MinValue" : 7, "MaxValue" : 10, "Increment" : 1 },
-        "Epic" : { "MinValue" : 11, "MaxValue" : 14, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
+        "Magic" : { "MinValue" : 5, "MaxValue" : 10, "Increment" : 1 },
+        "Rare" : { "MinValue" : 11, "MaxValue" : 16, "Increment" : 1 },
+        "Epic" : { "MinValue" : 17, "MaxValue" : 22, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 22, "MaxValue" : 27, "Increment" : 1 }
       },
       "SelectionWeight" : 1,
       "Prefixes": [
@@ -2278,19 +2123,13 @@
       "DisplayText" : "$mod_epicloot_me_modifyblockpowerlowhealth_display",
       "Description" : "$mod_epicloot_me_modifyblockpowerlowhealth_desc",
       "Requirements" : {
-        "AllowedItemTypes" : [
-          "Shield"
-        ],
-        "ExcludedSkillTypes": [
-          "Pickaxes"
-        ],
-        "ItemHasBlockPower" : true
+        "NoRoll": true
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 },
-        "Rare" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 },
-        "Epic" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 25, "MaxValue" : 30, "Increment" : 1 }
+        "Magic" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 },
+        "Rare" : { "MinValue" : 16, "MaxValue" : 21, "Increment" : 1 },
+        "Epic" : { "MinValue" : 22, "MaxValue" : 27, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 28, "MaxValue" : 33, "Increment" : 1 }
       },
       "SelectionWeight" : 1,
       "Prefixes": [
@@ -2307,23 +2146,13 @@
       "DisplayText" : "$mod_epicloot_me_modifyparrylowhealth_display",
       "Description" : "$mod_epicloot_me_modifyparrylowhealth_desc",
       "Requirements" : {
-        "AllowedItemTypes" : [
-          "Shield",
-          "TwoHandedWeapon"
-        ],
-        "ExcludedSkillTypes": [
-          "Pickaxes"
-        ],
-        "ExcludedItemNames": [
-          "$item_shield_serpentscale"
-        ],
-        "ItemHasParryPower" : true
+        "NoRoll": true
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 },
-        "Rare" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 },
-        "Epic" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 25, "MaxValue" : 30, "Increment" : 1 }
+        "Magic" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 },
+        "Rare" : { "MinValue" : 16, "MaxValue" : 21, "Increment" : 1 },
+        "Epic" : { "MinValue" : 22, "MaxValue" : 27, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 28, "MaxValue" : 33, "Increment" : 1 }
       },
       "SelectionWeight" : 1,
       "Prefixes": [
@@ -2339,15 +2168,7 @@
       "DisplayText" : "$mod_epicloot_me_modifyattackspeedlowhealth_display",
       "Description" : "$mod_epicloot_me_modifyattackspeedlowhealth_desc",
       "Requirements" : {
-        "AllowedItemTypes" : [
-          "OneHandedWeapon",
-          "TwoHandedWeapon",
-          "Bow",
-          "Tool"
-        ],
-        "ExcludedSkillTypes": [
-          "Pickaxes"
-        ]
+        "NoRoll": true
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
@@ -2368,10 +2189,7 @@
       "DisplayText" : "$mod_epicloot_me_avoiddamagetakenlowhealth_display",
       "Description" : "$mod_epicloot_me_avoiddamagetakenlowhealth_desc",
       "Requirements" : {
-        "AllowedItemTypes" : [
-          "Chest",
-          "Shield"
-        ]
+        "NoRoll": true
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 7, "MaxValue" : 15, "Increment" : 1 },
@@ -2405,10 +2223,10 @@
       },
       "ValuesPerRarity" : {
         "Rare" : { "MinValue" : 1, "MaxValue" : 2, "Increment" : 0.1 },
-        "Epic" : { "MinValue" : 2, "MaxValue" : 3, "Increment" : 0.1 },
-        "Legendary" : { "MinValue" : 3, "MaxValue" : 4, "Increment" : 0.1 }
+        "Epic" : { "MinValue" : 3, "MaxValue" : 4, "Increment" : 0.1 },
+        "Legendary" : { "MinValue" : 5, "MaxValue" : 6, "Increment" : 0.1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 3,
       "Prefixes": [
         "$mod_epicloot_me_lifesteallowhealth_prefix1"
       ],
@@ -2422,13 +2240,7 @@
       "Description" : "$mod_epicloot_me_glowing_desc",
       "EquipFx" : "GlowingAura", 
       "Requirements" : {
-        "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-          "Legs",
-          "Shoulder",
-          "Utility"
-        ]
+        "NoRoll": true
       },
       "SelectionWeight" : 1,
       "Prefixes": [
@@ -2443,18 +2255,7 @@
       "DisplayText" : "$mod_epicloot_me_executioner_display",
       "Description" : "$mod_epicloot_me_executioner_desc",
       "Requirements" : {
-        "AllowedItemTypes" : [
-          "OneHandedWeapon",
-          "TwoHandedWeapon",
-          "Bow"
-        ],
-        "ExcludedSkillTypes": [
-          "Pickaxes"
-        ],
-        "AllowedRarities" : [
-          "Epic",
-          "Legendary"
-        ],
+        "NoRoll": true
         "ItemUsesStaminaOnAttack" : true
       },
       "ValuesPerRarity" : {
@@ -2506,9 +2307,9 @@
         ]
       },
       "ValuesPerRarity" : {
-        "Rare" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 },
-        "Epic" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 20, "MaxValue" : 25, "Increment" : 1 }
+        "Rare" : { "MinValue" : 15, "MaxValue" : 25, "Increment" : 1 },
+        "Epic" : { "MinValue" : 25, "MaxValue" : 40, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 40, "MaxValue" : 55, "Increment" : 1 }
       },
       "SelectionWeight" : 1,
       "Prefixes": [
@@ -2582,7 +2383,7 @@
         "Epic" : { "MinValue" : 23, "MaxValue" : 30, "Increment" : 1 },
         "Legendary" : { "MinValue" : 31, "MaxValue" : 40, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 3,
       "Prefixes": [
         "$mod_epicloot_me_modifystaggerdamage_prefix1"
       ],
@@ -2595,13 +2396,7 @@
       "DisplayText" : "$mod_epicloot_me_luck_display",
       "Description" : "$mod_epicloot_me_luck_desc",
       "Requirements" : {
-        "AllowedItemTypes" : [
-          "Helmet",
-          "Chest",
-          "Legs",
-          "Shoulder",
-          "Utility"
-        ]
+        "NoRoll": true
       },
       "ValuesPerRarity" : {
         "Magic" : { "MinValue" : 1, "MaxValue" : 5, "Increment" : 1 },
@@ -2609,7 +2404,7 @@
         "Epic" : { "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 },
         "Legendary" : { "MinValue" : 15, "MaxValue" : 20, "Increment" : 1 }
       },
-      "SelectionWeight" : 1,
+      "SelectionWeight" : 3,
       "Prefixes": [
         "$mod_epicloot_me_luck_prefix1"
       ],
@@ -2649,20 +2444,13 @@
       "DisplayText" : "$mod_epicloot_me_slow_display",
       "Description" : "$mod_epicloot_me_slow_desc",
       "Requirements" : {
-        "AllowedItemTypes" : [
-          "OneHandedWeapon",
-          "TwoHandedWeapon",
-          "Bow"
-        ],
-        "ExcludedSkillTypes": [
-          "Pickaxes"
-        ]
+        "NoRoll": true
       },
       "ValuesPerRarity" : {
-        "Magic" : { "MinValue" : 30, "MaxValue" : 50, "Increment" : 1 },
-        "Rare" : { "MinValue" : 40, "MaxValue" : 60, "Increment" : 1 },
-        "Epic" : { "MinValue" : 50, "MaxValue" : 70, "Increment" : 1 },
-        "Legendary" : { "MinValue" : 60, "MaxValue" : 80, "Increment" : 1 }
+        "Magic" : { "MinValue" : 10, "MaxValue" : 20, "Increment" : 1 },
+        "Rare" : { "MinValue" : 20, "MaxValue" : 30, "Increment" : 1 },
+        "Epic" : { "MinValue" : 30, "MaxValue" : 40, "Increment" : 1 },
+        "Legendary" : { "MinValue" : 40, "MaxValue" : 50, "Increment" : 1 }
       },
       "SelectionWeight" : 1,
       "Prefixes": [
@@ -2673,8 +2461,6 @@
       ]
     },
 
-    // Set Effects
-    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Type" : "Bulwark",
       "DisplayText" : "$mod_epicloot_set_me_bulwark",

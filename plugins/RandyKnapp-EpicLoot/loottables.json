@@ -1,12 +1,12 @@
 {
-  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  // /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   // MAGIC EFFECT COUNTS
-  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  // /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   "MagicEffectsCount": {
-    "Magic":     [ [1, 80], [2, 18], [3, 2] ],
-    "Rare":      [ [2, 80], [3, 18], [4, 2] ],
-    "Epic":      [ [3, 80], [4, 18], [5, 2] ],
-    "Legendary": [ [4, 80], [5, 18], [6, 2] ]
+    "Magic":     [ [1, 80], [2, 50], [3, 25] ], 
+    "Rare":      [ [2, 80], [3, 50], [4, 25] ], 
+    "Epic":      [ [3, 80], [4, 50], [5, 25] ], 
+    "Legendary": [ [4, 80], [5, 50], [6, 25] ] 
   },
 
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -32,7 +32,23 @@
     // Enchanting Mats
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
-      "Name": "EnchantingMats",
+      "Name": "MOSummoningItems",
+      "Loot": [
+        { "Item": "DeathKnightItem_DoD" },
+        { "Item": "ArcherItem_DoD" },
+        { "Item": "BerserkerItem_DoD" },
+        { "Item": "DruidItem_DoD" },
+        { "Item": "MageItem_DoD" },
+        { "Item": "MonkItem_DoD" },
+        { "Item": "NinjaItem_DoD" },
+        { "Item": "PaladinItem_DoD" },
+        { "Item": "RogueItem_DoD" },
+        { "Item": "ShamanItem_DoD" },
+        { "Item": "WarlockItem_DoD" }
+      ]
+    },
+    {
+	 "Name": "EnchantingMats",
       "Loot": [
         { "Item": "Tier0Mats" },
         { "Item": "Tier1Mats" },
@@ -526,7 +542,7 @@
         }
       ]
     },
-    // Tier 3 Mobs (Troll, Ghost, Blob, Draugr, Draugr Archer, Leech, Surtling)
+    // Tier 3 Mobs (Troll, Ghost, Leech, Blob, Draugr)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Tier3Mob",
@@ -634,7 +650,7 @@
         }
       ]
     },
-    // Tier 5 Mobs (Stone Golem, Fenring, Serpent, Deathsquito, Lox, Fuling, Fuling Archer)
+    // Tier 5 Mobs (Goblin, Deathsquito, Lox, Fenring, Stone Golem, Serpent)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Tier5Mob",
@@ -736,7 +752,7 @@
           ]
         }
       ]
-    },
+    },	
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // Tier 0 Mobs (Greyling, Deer, Boar, Neck)
@@ -1204,7 +1220,7 @@
         }
       ]
     },
-
+    
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // TREASURE CHESTS
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1213,104 +1229,113 @@
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_meadows",
-      "Drops": [ [0, 78], [1, 20], [2, 2] ],
+      "Drops": [ [1, 78], [2, 20], [3, 2] ],
       "Loot": [
-        { "Item": "Tier0Everything", "Weight": 4, "Rarity": [ 97, 2, 1, 0] },
-        { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 97, 2, 1, 0] }
+        { "Item": "MOSummoningItems", "Weight": 1 },
+        { "Item": "Tier0Everything", "Weight": 16, "Rarity": [ 97, 2, 1, 0] },
+        { "Item": "Tier1Everything", "Weight": 4, "Rarity": [ 97, 2, 1, 0] }
       ]
     },
     //TreasureChest_blackforest
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_blackforest",
-      "Drops": [ [0, 70], [1, 30] ],
+      "Drops": [ [1, 70], [2, 30] ],
       "Loot": [
-        { "Item": "Tier0Shields",    "Weight": 1, "Rarity": [ 95, 4, 1, 0] },
-        { "Item": "Tier1Everything", "Weight": 2, "Rarity": [ 95, 4, 1, 0] }
+        { "Item": "MOSummoningItems", "Weight": 1 },
+        { "Item": "Tier0Shields",    "Weight": 4, "Rarity": [ 95, 4, 1, 0] },
+        { "Item": "Tier1Everything", "Weight": 8, "Rarity": [ 95, 4, 1, 0] }
       ]
     },
     //TreasureChest_forestcrypt
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_forestcrypt",
-      "Drops": [ [0, 68], [1, 20], [2, 10], [3, 2] ],
+      "Drops": [ [1, 68], [2, 20], [3, 10], [4, 2] ],
       "Loot": [
-        { "Item": "Tier1Everything", "Weight": 2, "Rarity": [ 95, 4, 1, 0] },
-        { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 95, 4, 1, 0] }
+        { "Item": "MOSummoningItems", "Weight": 1 },
+        { "Item": "Tier1Everything", "Weight": 4, "Rarity": [ 95, 4, 1, 0] },
+        { "Item": "Tier2Everything", "Weight": 2, "Rarity": [ 95, 4, 1, 0] }
       ]
     },
     //TreasureChest_fCrypt (I think this is just a copy of forestcrypt)
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_fCrypt",
-      "Drops": [ [0, 68], [1, 20], [2, 10], [3, 2] ],
+      "Drops": [ [1, 68], [2, 20], [3, 10], [4, 2] ],
       "Loot": [{ "Item": "TreasureChest_forestcrypt.1" }]
     },
     //TreasureChest_trollcave
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_trollcave",
-      "Drops": [ [0, 48], [1, 40], [2, 20], [3, 2] ],
+      "Drops": [ [1, 48], [2, 40], [3, 20], [4, 2] ],
       "Loot": [
-        { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 90, 9, 1, 0] },
-        { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 90, 9, 1, 0] }
+        { "Item": "MOSummoningItems", "Weight": 1 },
+        { "Item": "Tier1Everything", "Weight": 4, "Rarity": [ 90, 9, 1, 0] },
+        { "Item": "Tier2Everything", "Weight": 4, "Rarity": [ 90, 9, 1, 0] }
       ]
     },
     // shipwreck_karve_chest
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "shipwreck_karve_chest",
-      "Drops": [ [0, 48], [1, 40], [2, 20], [3, 2] ],
+      "Drops": [ [1, 48], [2, 40], [3, 20], [4, 2] ],
       "Loot": [
-        { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 90, 9, 1, 0] },
-        { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 90, 9, 1, 0] }
+        { "Item": "MOSummoningItems", "Weight": 1 },
+        { "Item": "Tier0Everything", "Weight": 4, "Rarity": [ 90, 9, 1, 0] },
+        { "Item": "Tier1Everything", "Weight": 4, "Rarity": [ 90, 9, 1, 0] }
       ]
     },
     // TreasureChest_meadows_buried
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_meadows_buried",
-      "Drops": [ [0, 48], [1, 40], [2, 20], [3, 2] ],
+      "Drops": [ [1, 48], [2, 40], [3, 20], [4, 2] ],
       "Loot": [
-        { "Item": "Tier0Everything", "Weight": 3, "Rarity": [ 70, 25, 5, 0] },
-        { "Item": "Tier1Everything", "Weight": 2, "Rarity": [ 70, 25, 5, 0] }
+        { "Item": "MOSummoningItems", "Weight": 1 },
+        { "Item": "Tier0Everything", "Weight": 9, "Rarity": [ 70, 25, 5, 0] },
+        { "Item": "Tier1Everything", "Weight": 6, "Rarity": [ 70, 25, 5, 0] }
       ]
     },
     // TreasureChest_sunkencrypt
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_sunkencrypt",
-      "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
+      "Drops": [ [1, 58], [2, 30], [3, 20], [4, 2] ],
       "Loot": [
-        { "Item": "Tier2Everything", "Weight": 3, "Rarity": [ 80, 17, 3, 0] },
-        { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 80, 17, 3, 0] }
+        { "Item": "MOSummoningItems", "Weight": 1 },
+        { "Item": "Tier2Everything", "Weight": 8, "Rarity": [ 80, 17, 3, 0] },
+        { "Item": "Tier3Everything", "Weight": 2, "Rarity": [ 80, 17, 3, 0] }
       ]
     },
     // TreasureChest_swamp
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_swamp",
-      "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
+      "Drops": [ [1, 58], [2, 30], [3, 20], [4, 2] ],
       "Loot": [
-        { "Item": "Tier2Everything", "Weight": 5 },
-        { "Item": "Tier3Everything", "Weight": 1 }
+        { "Item": "MOSummoningItems", "Weight": 1 },
+        { "Item": "Tier2Everything", "Weight": 10 },
+        { "Item": "Tier3Everything", "Weight": 4 }
       ]
     },
     // TreasureChest_mountains
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_mountains",
-      "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
+      "Drops": [ [1, 58], [2, 30], [3, 20], [4, 2] ],
       "Loot": [
-        { "Item": "Tier3Everything", "Weight": 4 },
-        { "Item": "Tier4Everything", "Weight": 1 }
+        { "Item": "MOSummoningItems", "Weight": 1 },
+        { "Item": "Tier3Everything", "Weight": 8 },
+        { "Item": "Tier4Everything", "Weight": 4 }
       ]
     },
     // TreasureChest_plains_stone
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_plains_stone",
-      "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
+      "Drops": [ [1, 58], [2, 30], [3, 20], [4, 2] ],
       "Loot": [
         { "Item": "TreasureChest_heath.1", "Weight": 1 }
       ]
@@ -1319,10 +1344,11 @@
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_heath",
-      "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
+      "Drops": [ [1, 58], [2, 30], [3, 20], [4, 2] ],
       "Loot": [
-        { "Item": "Tier4Everything", "Weight": 3 },
-        { "Item": "Tier5Everything", "Weight": 1 }
+        { "Item": "MOSummoningItems", "Weight": 1 },
+        { "Item": "Tier4Everything", "Weight": 6 },
+        { "Item": "Tier5Everything", "Weight": 3 }
       ]
     },
 
@@ -1333,40 +1359,72 @@
       "Object": "TreasureMapChest_Meadows",
       "Drops": [ [3, 80], [4, 15], [5, 5] ],
       "Loot": [
-        { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 68, 30, 2, 0] },
-        { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 68, 30, 2, 0] }
+        { "Item": "MOSummoningItems", "Weight": 1 },
+        { "Item": "Tier0Everything", "Weight": 4, "Rarity": [ 68, 30, 2, 0] },
+        { "Item": "Tier1Everything", "Weight": 4, "Rarity": [ 68, 30, 2, 0] }
       ]
     },
     {
       "Object": "TreasureMapChest_BlackForest",
       "Drops": [ [3, 80], [4, 15], [5, 5] ],
       "Loot": [
-        { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 40, 50, 9, 1] },
-        { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 40, 50, 9, 1] }
+        { "Item": "MOSummoningItems", "Weight": 1 },
+        { "Item": "Tier1Everything", "Weight": 4, "Rarity": [ 40, 50, 9, 1] },
+        { "Item": "Tier2Everything", "Weight": 4, "Rarity": [ 40, 50, 9, 1] }
       ]
     },
     {
       "Object": "TreasureMapChest_Swamp",
       "Drops": [ [3, 80], [4, 15], [5, 5] ],
       "Loot": [
-        { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 10, 45, 50, 5] },
-        { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 10, 45, 50, 5] }
+        { "Item": "MOSummoningItems", "Weight": 1 },
+        { "Item": "Tier2Everything", "Weight": 4, "Rarity": [ 10, 45, 50, 5] },
+        { "Item": "Tier3Everything", "Weight": 4, "Rarity": [ 10, 45, 50, 5] }
       ]
     },
     {
       "Object": "TreasureMapChest_Mountain",
       "Drops": [ [3, 80], [4, 15], [5, 5] ],
       "Loot": [
-        { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 0, 30, 60, 10] },
-        { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 0, 30, 60, 10] }
+        { "Item": "MOSummoningItems", "Weight": 1 },
+        { "Item": "Tier3Everything", "Weight": 4, "Rarity": [ 10, 45, 50, 5] },
+        { "Item": "Tier4Everything", "Weight": 4, "Rarity": [ 10, 45, 50, 5] }
       ]
     },
     {
       "Object": "TreasureMapChest_Plains",
       "Drops": [ [3, 80], [4, 15], [5, 5] ],
       "Loot": [
-        { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 0, 10, 75, 15] },
-        { "Item": "Tier5Everything", "Weight": 1, "Rarity": [ 0, 10, 75, 15] }
+        { "Item": "MOSummoningItems", "Weight": 1 },
+        { "Item": "Tier4Everything", "Weight": 4, "Rarity": [ 10, 45, 50, 5] },
+        { "Item": "Tier5Everything", "Weight": 4, "Rarity": [ 10, 45, 50, 5] }
+      ]
+    },
+    {
+      "Object": "TreasureMapChest_Mistlands",
+      "Drops": [ [3, 80], [4, 15], [5, 5] ],
+      "Loot": [
+        { "Item": "MOSummoningItems", "Weight": 1 },
+        { "Item": "Tier4Everything", "Weight": 4, "Rarity": [ 10, 45, 50, 5] },
+        { "Item": "Tier5Everything", "Weight": 4, "Rarity": [ 10, 45, 50, 5] }
+      ]
+    },
+    {
+      "Object": "TreasureMapChest_DeepNorth",
+      "Drops": [ [3, 80], [4, 15], [5, 5] ],
+      "Loot": [
+        { "Item": "MOSummoningItems", "Weight": 1 },
+        { "Item": "Tier4Everything", "Weight": 4, "Rarity": [ 10, 45, 50, 5] },
+        { "Item": "Tier5Everything", "Weight": 4, "Rarity": [ 10, 45, 50, 5] }
+      ]
+    },
+    {
+      "Object": "TreasureMapChest_AshLands",
+      "Drops": [ [3, 80], [4, 15], [5, 5] ],
+      "Loot": [
+        { "Item": "MOSummoningItems", "Weight": 1 },
+        { "Item": "Tier4Everything", "Weight": 4, "Rarity": [ 10, 45, 50, 5] },
+        { "Item": "Tier5Everything", "Weight": 4, "Rarity": [ 10, 45, 50, 5] }
       ]
     }
   ]

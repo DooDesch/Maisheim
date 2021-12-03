@@ -79,6 +79,18 @@
 
 * Fixed issue with missing food items for chickens.. can feed them all the listed items in readme now
 
+### V2.0.3
+
+* Fix for new valheim patch
+
+### V2.0.4
+
+* rebuild with egg laying and hat saving turned on
+
+### V2.0.5
+
+* Fix issue with heavy ZDO write due to the way I was handling spawner
+
 <h2>  Install Notes: </h2>
 
 >`Mod is required on both server and client for config sync to work.`
@@ -92,3 +104,5 @@
 <p align="center"><h2>For Questions or Comments please join the Odin Plus Team on Discord:</h2></p>
 
 <p align="center"><a href="https://discord.gg/mbkPcvu9ax"><img src="https://i.imgur.com/Ji3u63C.png"></a></p>
+
+

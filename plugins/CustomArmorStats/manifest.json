@@ -1,9 +1,0 @@
-{
-    "name": "Custom_Armor_Stats",
-    "version_number": "0.2.2",
-    "website_url": "https://www.nexusmods.com/valheim/mods/1162?tab=description",
-    "description": "Lets you customize global and per-piece armor stats like durability, armor amount, movement modifier, and damage type modifiers. It also adds resistance to Wet status as a possible modifier.",
-    "dependencies": [
-		
-    ]
-}

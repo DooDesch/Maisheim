@@ -81,17 +81,17 @@
     },
     {
       "ItemTypes" : [ "Trophie" ],
-      "ItemNames" : [ "$item_trophy_troll", "$item_trophy_greydwarfbrute", "$item_trophy_greydwarfshaman", "$item_trophy_blob", "$item_trophy_draugr", "$item_trophy_draugrelite", "$item_trophy_draugrfem", "$item_trophy_foresttroll", "$item_trophy_leech", "$item_trophy_surtling", "$item_trophy_wolf", "$item_trophy_wraith" ],
+      "ItemNames" : [ "$item_trophy_golddrake", "$item_trophy_darknessdrake", "$item_trophy_darkdrake", "$item_trophy_poisondrake", "Bear Trophy", "$item_trophy_blackdeer_dod", "$item_trophy_forestwolf_dod", "$item_trophy_frostling_dod", "$item_trophy_livingwater_dod", "$item_trophy_skeletong_dod", "$item_trophy_skeletonr_dod", "$item_trophy_stormling_dod", "$item_trophy_voidling_dod", "$item_trophy_troll", "$item_trophy_greydwarfbrute", "$item_trophy_greydwarfshaman", "$item_trophy_blob", "$item_trophy_draugr", "$item_trophy_draugrelite", "$item_trophy_draugrfem", "$item_trophy_foresttroll", "$item_trophy_leech", "$item_trophy_surtling", "$item_trophy_wolf", "$item_trophy_wraith" ],
       "Products" : [ { "Item": "ShardRare", "Amount": 1 } ]
     },
     {
       "ItemTypes" : [ "Trophie" ],
-      "ItemNames" : [ "$item_trophy_fenring", "$item_trophy_goblin", "$item_trophy_hatchling", "$item_trophy_lox", "$item_trophy_sgolem" ],
+      "ItemNames" : [ "$item_trophy_icedrake", "$item_trophy_flamedrake", "$item_trophy_arcanedrake", "$item_trophy_deathsquito", "$item_trophy_goblinbrute", "$item_trophy_goblinshaman", "$item_trophy_serpent", "$item_trophy_direwolf_dod", "$item_trophy_skeletonchar_dod", "$item_trophy_frozenbones_dod", "$item_trophy_icegolem_dod", "$item_trophy_livinglava_dod", "$item_trophy_gsurtling_dod", "$item_trophy_fenring", "$item_trophy_goblin", "$item_trophy_hatchling", "$item_trophy_lox", "$item_trophy_sgolem" ],
       "Products" : [ { "Item": "ShardEpic", "Amount": 1 } ]
     },
     {
       "ItemTypes" : [ "Trophie" ],
-      "ItemNames" : [ "$item_trophy_deathsquito", "$item_trophy_goblinbrute", "$item_trophy_goblinshaman", "$item_trophy_serpent" ],
+      "ItemNames" : [ "$item_trophy_lavagolem_dod","$item_trophy_obgolem_dod" ],
       "Products" : [ { "Item": "ShardLegendary", "Amount": 1 } ]
     },
     {
@@ -146,9 +146,9 @@
     {
       "ItemNames" : [ "Yagluth thing" ],
       "Products" : [
-        { "Item": "DustLegendary",    "Amount": 6 },
-        { "Item": "EssenceLegendary", "Amount": 3 },
-        { "Item": "ReagentLegendary", "Amount": 3 }
+        { "Item": "DustLegendary",    "Amount": 2 },
+        { "Item": "EssenceLegendary", "Amount": 2 },
+        { "Item": "ReagentLegendary", "Amount": 2 }
       ]
     }
   ],

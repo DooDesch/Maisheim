@@ -1,0 +1,9 @@
+{
+    "name": "Hugos_Armory",
+    "version_number": "5.0.1",
+    "website_url": "https://www.nexusmods.com/valheim/mods/1189",
+    "description": "Adds 20 new Two Handed Weapons to Valheim. With practical damage numbers to match Valheim. Custom Itemstand positions, and an extra attack with a configureable hotkey.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1601"
+    ]
+}

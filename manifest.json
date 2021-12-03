@@ -1,13 +1,13 @@
 {
     "author": "DooDesch",
-    "name": "TestValheimPack",
-    "version_number": "1.0.6",
+    "name": "Maisheim",
+    "version_number": "1.1.1",
     "website_url": "na",
-    "description": "A list of mods for use on my testing Valheim server.",
+    "description": "A list of mods for use on the Maiskolben Valheim server.",
     "dependencies": [
-        "aedenthorn_nexus-AutoFeed-0.6.2",
         "OhhLoz-HoneyPlus-2.0.2",
         "ValheimModding-Jotunn-2.4.1",
-        "ValheimModding-HookGenPatcher-0.0.3"
+        "ValheimModding-HookGenPatcher-0.0.3",
+        "aedenthorn_nexus-AutoFeed-0.6.2"
     ]
 }
