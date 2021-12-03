@@ -1,0 +1,11 @@
+{
+    "name": "ChaosArmor",
+    "version_number": "7.1.0",
+    "website_url": "https://www.nexusmods.com/valheim/mods/1215?tab=description",
+    "description": "Adds new set of armor featuring models and textures ported from the abandoned Grim Age mod for Mount & Blade: Warband. Verified working with H&H. Assets are based on Warhammer Fantasy and are thus copyrighted as Derivative Works by Games Workshop.",
+    "dependencies": [
+		"denikson-BepInExPack_Valheim-5.4.1601",
+        "ValheimModding-Jotunn-2.3.12",
+		"GoldenJude-Blacksmiths_tools-2.0.1"
+    ]
+}

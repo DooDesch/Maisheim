@@ -1,0 +1,10 @@
+{
+    "name": "EpicValheimsAdditions",
+    "version_number": "1.2.7",
+    "website_url": "https://www.nexusmods.com/valheim/mods/1475",
+    "description": "﻿This adds new weapons/items/resources and boss spawning",
+    "dependencies": [
+        "ValheimModding-Jotunn-2.3.7",
+        "denikson-BepInExPack_Valheim-5.4.1600"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "name": "RRRMonsters",
+    "version_number": "2.2.1",
+    "website_url": "",
+    "description": "Adds new monsters and enables custom monsters via JSON configs.",
+    "dependencies": ["neurodr0me-RRRCore-0.2.8"]
+}

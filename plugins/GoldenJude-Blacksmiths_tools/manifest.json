@@ -1,0 +1,9 @@
+{
+    "name": "Blacksmiths_tools",
+    "version_number": "2.0.1",
+    "website_url": "",
+    "description": "A fix for incorrectly deforming skinned meshes on custom items. Additionally to hide parts of the player model to prevent clipping.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1502"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Judes_Equipment",
+    "version_number": "1.4.0",
+    "website_url": "",
+    "description": "Adds 6 new armor sets aswell as a new backpack",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1502",
+        "GoldenJude-Blacksmiths_tools-2.0.1"
+    ]
+}

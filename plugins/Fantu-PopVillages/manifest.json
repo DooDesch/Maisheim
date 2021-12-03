@@ -1,0 +1,15 @@
+{
+    "name": "PopVillages",
+    "version_number": "1.0.1",
+    "website_url": "",
+    "description": "Populated Villages, PopVillages in short, makes player friendly NPCs (tamed) spawn on Draugr Villages and a few other locations AFTER you remove all the enemies from that area.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1600",
+		"ValheimModding-Jotunn-2.4.0",
+		"ASharpPen-Spawn_That-0.11.3",
+		"neurodr0me-RRRCore-2.10.0",
+		"neurodr0me-RRRMonsters-2.2.1",
+		"neurodr0me-RRRNpcs-0.2.3",
+		"Fantu-Sages_Vault-1.1.2"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "SteadyRegeneration",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/blaxxun-boop/SteadyRegeneration",
+    "description": "Removes the healing ticks of food and makes you slowly, but constantly regenerate HP instead.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1500"
+    ]
+}

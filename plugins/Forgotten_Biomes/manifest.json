@@ -1,0 +1,9 @@
+{
+  "name": "Forgotten_Biomes",
+  "version_number": "0.0.14",
+  "website_url": "https://www.nexusmods.com/valheim/mods/1128",
+  "description": "Add some variety in AshLands and DeepNorth biomes.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.1600"
+  ]
+}
