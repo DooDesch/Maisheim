@@ -1,3 +1,3 @@
-# Test
+# Maisheim
 
-This is just a test collection
+This is a Modpack, used on the XTC Server
