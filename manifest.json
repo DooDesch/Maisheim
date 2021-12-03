@@ -2,7 +2,7 @@
     "author": "DooDesch",
     "name": "Maisheim",
     "version_number": "1.1.3",
-    "website_url": "na",
+    "website_url": "https://github.com/DooDesch/Maisheim",
     "description": "A list of mods for use on the Maiskolben Valheim server.",
     "dependencies": [
         "OhhLoz-HoneyPlus-2.0.2",
