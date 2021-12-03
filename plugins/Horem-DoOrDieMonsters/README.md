@@ -3,8 +3,12 @@
 
 	Includes monsters from MonsterMash:- 3 Variants of Werebear, Yeti, Wizard, Crawler, Forest and Swamp Wendigo, 5 Variants of Werewolf and The Reaper. (Requires a mod like SpawnThat to make use of them)
 	Adds 6 Drake, 4 Skeleton, 3 Surtling, 3 Golem, 3 Wolf, 3 Wolf Cub, 2 Blob and 2 Ghost reskins. (Requires a mod like SpawnThat to make use of them)
-	Disabled - Adds 25 Status Effects to be used by mobs. (Requires a mod like RRRMonsters or c# knowledge to make use of them)
-
+	Adds 10 Trees, 6 Rocks and 4 Pickables and some non interactable Flora to Mistlands.
+	Adds 13 Rocks to Ashlands.
+	Adds 10 Rocks, 3 Bushes and 7 Trees to Deep North.
+	Adds Banana Trees to Plains and Swamp.
+	Adds Apple Trees to Black Forest.
+	
 For further assistance you can find me on my Discord:- https://discord.gg/7BcEZXhRbV
 
 
@@ -15,6 +19,10 @@ For further assistance you can find me on my Discord:- https://discord.gg/7BcEZX
 	Jules for his helpful insight and help with JvL.
   Hugo the Dwarf, Balrond, Shadow84, GoldenJude and anyone else I have forgotten for their help with issues I posted in the Valhiem Modding Discord.
 
+## Credits
+
+	VitByr for the Russian Translation.
+	
 ## Servers
 
 Required on both server and client, uses JvL Network Compatibility.
@@ -31,6 +39,10 @@ Required on both server and client, uses JvL Network Compatibility.
 
 - Status Effects are currently broken/disabled.
 - Some class weapon secondary attacks are unbalanced due to this (Not on the OP side).
+
+**Forgotten Biomes**
+
+Requires vegetation to be off in Mistalnds or it will get Crowded. (Or disable Mistlands Vegetation in the DoDMonsters.cfg, user preference)
 
 
 ## Boss Monsters
@@ -833,51 +845,18 @@ New class item for each class included for use with Magic Overhaul: Essence of *
 - TheNasty
 - Nasty_Spawner
 
-## StatusEffect ID's - Currently Disabled
-
-- SE_Horrors_DoD
-- SE_Hexed_DoD
-- SE_Infected_DoD
-- SE_Diseased_DoD
-- SE_Weak_DoD
-- SE_FlashBurn_DoD
-- SE_Blistered_DoD
-- SE_Haste_DoD
-- SE_Paralyze_DoD
-- SE_Slow_DoD
-- SE_MajorNeuralgia_DoD
-- SE_Frostbitten_DoD
-- SE_Frostbite_DoD
-- SE_GreaterBleeding_DoD
-- SE_Bleeding_DoD
-- SE_LesserBleeding_DoD
-- SE_GreaterShield_DoD
-- SE_Shield_DoD
-- SE_LesserShield_DoD
-- SE_GreaterRegen_DoD
-- SE_Regen_DoD
-- SE_LesserRegen_DoD
-- SE_GreaterHoT_DoD
-- SE_HoT_DoD
-- SE_LesserHoT_DoD
-- SE_Poisoned_DoD
-
-## AoE Prefab ID's
-
-- AoE_HoT50_DoD
-- AoE_HoT100_DoD
-- AoE_HoT200_DoD
-- AoE_Regen50_DoD
-- AoE_Regen100_DoD
-- AoE_Regen200_DoD
-- AoE_Protection250_DoD
-- AoE_Protection500_DoD
-- AoE_Protection1000_DoD
-- AoE_Infected_DoD
-- AoE_Diseased_DoD
-- AoE_Weak_DoD
 
 ## Prefab ID's
+
+**Locations**
+
+- Loc_OreMine_DoD
+- Event_StoneRing_Mistlands_DoD
+- Loc_MistlandsTower_DoD
+- Loc_MistlandsCave_DoD
+- Loc_CastleArena_DoD
+- Loc_Camp_DoD
+- Loc_Boss_Rambore_DoD
 
 **Bosses**
 
@@ -1073,6 +1052,21 @@ New class item for each class included for use with Magic Overhaul: Essence of *
 - SwordFelmetal1_DoD
 - SwordFelmetal2_DoD
 
+**AoE Prefab ID's**
+
+- AoE_HoT50_DoD
+- AoE_HoT100_DoD
+- AoE_HoT200_DoD
+- AoE_Regen50_DoD
+- AoE_Regen100_DoD
+- AoE_Regen200_DoD
+- AoE_Protection250_DoD
+- AoE_Protection500_DoD
+- AoE_Protection1000_DoD
+- AoE_Infected_DoD
+- AoE_Diseased_DoD
+- AoE_Weak_DoD
+
 **Monster Abilities and Items**
 
 - Bow_SkelG_DoD
@@ -1170,78 +1164,64 @@ New class item for each class included for use with Magic Overhaul: Essence of *
 - VFX_HitSparks_DoD
 - VFX_Injured_DoD
 
-## Location Spawn Names (For use with SpawnThat for example)
 
-**Local Spawners**
+## StatusEffect ID's - Currently Disabled
 
-	[Loc_OreMine_DoD(Clone).MineRock_FelOre_DoD]
-	[Loc_OreMine_DoD(Clone).Voidling_DoD]
-	[Loc_OreMine_DoD(Clone).Stormling_DoD]
-	[Loc_OreMine_DoD(Clone).Frostling_DoD]
-	[Loc_OreMine_DoD(Clone).DarknessDrake_DoD]
-	[Loc_OreMine_DoD(Clone).DarkDrake_DoD]
-	[Event_StoneRing_DoD(Clone).Voidling_DoD]
-	[Event_StoneRing_DoD(Clone).Vilefang_DoD]
-	[Event_StoneRing_DoD(Clone).DarknessDrake_DoD]
-	[Event_StoneRing_DoD(Clone).ForestWolf_DoD]
-	[Event_StoneRing_DoD(Clone).DarkDrake_DoD]
-	[Event_StoneRing_DoD(Clone).Stormling_DoD]
-
-**World Spawners**
-
-	
-
-## Example aAdvancedCustomAttacks for a Boar made with RRR (or any mob with the animation attack, see RRR Docs)
-
-
-	// Increases the Greydwarf Shaman Heal to 52 health over 4 seconds (20 normally)
-	 {
-		"sOriginalPrefabName" : "Greydwarf_shaman_heal",
-		"sAITargetType" : "FriendHurt",
-		"sAttackStatusEffect" : "SE_LesserHoT_DoD",
-		"sTargetAnim" : "attack",
-		"fAIAttackInterval" : 8,
-		"bAIPrioritized" : true,
-		"dtAttackDamageOverride" : null,
-		"fAttackDamageTotalOverride" : null,
-		"sAttackProjectileOverride" : "AoE_HoT50_DoD",
-		"aStartEffects" : null,
-		"aHitEffects" : null,
-		"aTriggerEffects" : null
-	 },
-	// Changes the Greydwarf Shaman Heal to 56 health over 16 seconds
-	 {
-		"sOriginalPrefabName" : "Greydwarf_shaman_heal",
-		"sAITargetType" : "FriendHurt",
-		"sAttackStatusEffect" : "SE_LesserRegen_DoD",
-		"sTargetAnim" : "attack",
-		"fAIAttackInterval" : 20,
-		"bAIPrioritized" : true,
-		"dtAttackDamageOverride" : null,
-		"fAttackDamageTotalOverride" : null,
-		"sAttackProjectileOverride" : "AoE_Regen50_DoD",
-		"aStartEffects" : null,
-		"aHitEffects" : null,
-		"aTriggerEffects" : null
-	 },		 
-	// Increases the Goblin Shaman Shield to absorb 250 damage (100 normally)
-	 {
-		"sOriginalPrefabName" : "GoblinShaman_attack_protect",
-		"sAITargetType" : "FriendHurt",
-		"sAttackStatusEffect" : "SE_LesserShield_DoD",
-		"sTargetAnim" : "attack",
-		"fAIAttackInterval" : 40,
-		"bAIPrioritized" : true,
-		"dtAttackDamageOverride" : null,
-		"fAttackDamageTotalOverride" : null,
-		"sAttackProjectileOverride" : "AoE_Shield250_DoD",
-		"aStartEffects" : null,
-		"aHitEffects" : null,
-		"aTriggerEffects" : null
-	 }
+- SE_Horrors_DoD
+- SE_Hexed_DoD
+- SE_Infected_DoD
+- SE_Diseased_DoD
+- SE_Weak_DoD
+- SE_FlashBurn_DoD
+- SE_Blistered_DoD
+- SE_Haste_DoD
+- SE_Paralyze_DoD
+- SE_Slow_DoD
+- SE_MajorNeuralgia_DoD
+- SE_Frostbitten_DoD
+- SE_Frostbite_DoD
+- SE_GreaterBleeding_DoD
+- SE_Bleeding_DoD
+- SE_LesserBleeding_DoD
+- SE_GreaterShield_DoD
+- SE_Shield_DoD
+- SE_LesserShield_DoD
+- SE_GreaterRegen_DoD
+- SE_Regen_DoD
+- SE_LesserRegen_DoD
+- SE_GreaterHoT_DoD
+- SE_HoT_DoD
+- SE_LesserHoT_DoD
+- SE_Poisoned_DoD
 
 
 ## Patch Notes
+
+**0.4.3**
+
+- Added new Rocks (10), Bushes (3) and Winter Trees(7) to Deep North.
+- Added new Rocks (13) to Ash Lands.
+- Added Ram'Bore Location (4 in the world, Meadows).
+- Fixed camp spawning oddly.
+- Fixed Arena groundleveling.
+- Fixed Animation error in Mistlands and Deep North.
+- Fixed Free loot spawning at the center ring.
+- Added Russian Localization by VitByr
+- Included DropThat configs for all new Trees, Bushes, Rocks, Chests and Pickables.
+- Included example SpawnThat World Spawner configs for monsters added by DoD in: Mistlands, Deep North and Ash Lands.
+
+**0.4.2**
+
+- Valheim's 205.5 Patch.
+- Added Enable/Disable config values for Weapons, Kits, Bosses and Monsters.
+- Added Castle Arena location. (Red and Green Eye Skeletons and White\Teal Ghosts are default mobs (5). 1 Vilefang, outside.)
+- Moved Event Ring to Multiple Biomes. (Voidling are default mobs(6))
+- Re-enabled camp. (Red Eye Skeleton are default mobs (2))
+- Moved Felmetal Ore deposits into Custom Resources config not Mistlands Vegetaion.
+- Fixed some dropables not having an attach point.
+- Fixed Mistlands Vegetation and Trees.
+- Added 2 maces, Mistlands and Deep North.
+- Added 1 wand, Mountains.
 
 **0.4.1**
 
@@ -1330,32 +1310,5 @@ New class item for each class included for use with Magic Overhaul: Essence of *
 - Removed Clss items from upgrade cost but increased craft cost.
 - Tweaked 2H Class weapons block value.
 - Fixed Class weapon upgrade levels.
-
-**0.3.2**
-
-- New Material: Infused Gemstone, drops on the DoD Bosses.
-- Infused Gemstone required for all class based weapons.
-- Classed based weapons can be crafted anywhere.
-- New Weapon: 2h Katana, 1 variant
-- Custom Battleaxe, 1 variant.
-- Custom Spear, 1 variant
-- Custom 2H Club, 1 variant.
-- Changed 1h Battleaxe VFX.
-- Change Wand's short attack animation.
-- Added Custom SFX to all new weapons, swing motion.
-
-**0.3.1**
-
-- Fixed broken wolf animator.
-- New Weapon: Short Sword, 1 variant
-- New Weapon: 1h Battle Axe, 1 variant
-- Added Magic Overhaul class item drops to the 5 DoD bosses.
-
-**0.3.0**
-
-- New Weapon: Wand, comes in 3 variants, Fire, Lightning and Shadow.
-- Custom one handed mace added, with AoE secondary attack.
-- Added Death Knight class item.
-- Fixed pathing with Farkas.
 
 See Changelog.txt for older changes.

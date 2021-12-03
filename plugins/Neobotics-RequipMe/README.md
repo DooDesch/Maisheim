@@ -12,6 +12,12 @@ Needless to say, even if you’re not in danger, RequipMe will save you the hass
 
 You can prioritize the weapon type to equip. Select one-handed, two-handed and bow, in any order. RequipMe will find the best weapon of a type, in the order you specify. If it doesn’t find a weapon of the first type, it will move to the second, and if needed, the third. If it slots a one-handed weapon, RequipMe will also equip your best shield in your off-hand (if you have a shield in your inventory, of course)
 
+## New
+
+### 0.1.1
+
+Added auto-equip of best arrows
+
 ## Configuration
 
 ### General

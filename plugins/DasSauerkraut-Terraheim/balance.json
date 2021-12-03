@@ -1,5 +1,5 @@
 {
-    "armorChangesEnabled": false,
+    "armorChangesEnabled": true,
     "baseDodgeStaminaUse": 15,
     "baseBlockStaminaUse": 25,
     "baseAttackStaminaUse": 20,

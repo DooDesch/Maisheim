@@ -1,0 +1,10 @@
+{
+    "name": "BetterNetworking_Valheim",
+    "version_number": "1.2.2",
+    "website_url": "https://www.nexusmods.com/valheim/mods/1570/",
+    "description": "If you've been experiencing lag or desync when playing with your friends, this is the solution!",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1600",
+        "TJzilla-BepInEx_ConfigurationManager-16.1.2"
+    ]
+}

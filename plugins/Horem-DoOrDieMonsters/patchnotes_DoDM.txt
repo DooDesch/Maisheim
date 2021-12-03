@@ -1,3 +1,29 @@
+0.4.3
+
+- Added new Rocks (10), Bushes (3) and Winter Trees(7) to Deep North.
+- Added new Rocks (13) to Ash Lands.
+- Added Ram'Bore Location.
+- Fixed camp spawning oddly.
+- Fixed Arena groundleveling.
+- Fixed Animation error in Mistlands and Deep North.
+- Fixed Free loot spawning at the center ring.
+- Added Russian Localization by VitByr
+- Included DropThat configs for all new Trees, Bushes, Rocks, Chests and Pickables.
+- Included example SpawnThat World Spawner configs for monsters added by DoD in: Mistlands, Deep North and Ash Lands.
+
+0.4.2
+
+- Added Enable/Disable config values for Weapons, Kits, Bosses and Monsters.
+- Added Castle Arena location. (Red and Green Eye Skeletons and White\Teal Ghosts are default mobs (5). 1 Vilefang, outside.)
+- Moved Event Ring to Multiple Biomes. (Voidling are default mobs(6))
+- Re-enabled camp. (Red Eye Skeleton are default mobs (2))
+- Moved Felmetal Ore deposits into Custom Resources config not Mistlands Vegetation.
+- Valheim's 205.5 Patch.
+- Fixed some dropables not having an attach point.
+- Fixed Mistlands Vegetation and Trees.
+- Added 2 maces, Mistlands and Deep North.
+- Added 1 wand, Mountains.
+
 0.4.1
 
 - Added config values for Custom Locations and Vegetation.

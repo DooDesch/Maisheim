@@ -42,7 +42,7 @@
         ]
     },
     "AtgeirFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 0.10,
         "station": "forge",
         "amountCrafted": 1,
@@ -199,7 +199,7 @@
         ]
     },
     "AxeFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 0.50,
         "station": "forge",
         "amountCrafted": 1,
@@ -388,7 +388,7 @@
         ]
     },
     "BattleaxeFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 15,
         "station": "forge",
         "amountCrafted": 1,
@@ -482,7 +482,7 @@
         ]
     },
     "BowFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 45,
         "station": "forge",
         "amountCrafted": 1,
@@ -645,7 +645,7 @@
         ]
     },
     "GreatswordFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 65,
         "station": "forge",
         "amountCrafted": 1,
@@ -746,7 +746,7 @@
         ]
     },
     "KnifeFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 2.0,
         "effectDur": 1,
         "effectThreshold": 1,
@@ -874,7 +874,7 @@
         ]
     },
     "SpearFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 20,
         "station": "forge",
         "amountCrafted": 1,
@@ -1020,7 +1020,7 @@
         ]
     },
     "ShieldFireTower": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 4,
         "projProtection": 0.10,
         "station": "forge",
@@ -1240,7 +1240,7 @@
         "enabled": true
     },
     "MaceFire": {
-        "enabled": false,
+        "enabled": true,
         "effectVal": 8,
         "cooldownVal": 17,
         "station": "forge",

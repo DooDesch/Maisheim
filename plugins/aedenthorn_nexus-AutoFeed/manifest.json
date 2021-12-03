@@ -1,0 +1,8 @@
+{
+    "name": "AutoFeed",
+    "version_number": "0.6.2",
+    "website_url": "https://www.nexusmods.com/valheim/mods/985",
+    "description": "Lets tameable animals eat from nearby containers. Creator: aedenthorn",
+    "dependencies": [
+    ]
+}

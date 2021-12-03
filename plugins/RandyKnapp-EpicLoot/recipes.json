@@ -370,6 +370,110 @@
       "resources": [
         { "item": "YagluthDrop", "amount": 1 }
       ]
+    },
+    {
+      "name": "Recipe_BoneSkeletonTrophy",
+      "item": "TrophySkeletonG_DoD",
+      "craftingStation": "piece_workbench",
+      "resources": [
+        { "item": "BoneFragments", "amount": 10 }
+      ]
+    },
+    {
+      "name": "Recipe_BoneSkeletonTrophy",
+      "item": "TrophySkeletonR_DoD",
+      "craftingStation": "piece_workbench",
+      "resources": [
+        { "item": "BoneFragments", "amount": 10 }
+      ]
+    },
+    {
+      "name": "Recipe_ObsidianObsidianGolemTrophy",
+      "item": "TrophyOGolem_DoD",
+      "craftingStation": "piece_workbench",
+      "resources": [
+        { "item": "Obsidian", "amount": 10 }
+      ]
+    },
+    {
+      "name": "Recipe_CoreLivingLavaTrophy",
+      "item": "TrophyLivingLava_DoD",
+      "craftingStation": "piece_workbench",
+      "resources": [
+        { "item": "SurtlingCore", "amount": 2 }
+      ]
+    },
+    {
+      "name": "Recipe_CoreLavaGolemTrophy",
+      "item": "TrophyLGolem_DoD",
+      "craftingStation": "piece_workbench",
+      "resources": [
+        { "item": "SurtlingCore", "amount": 2 }
+      ]
+    },
+    {
+      "name": "Recipe_CoreGreaterSurtlingTrophy",
+      "item": "TrophyGreatSurtling_DoD",
+      "craftingStation": "piece_workbench",
+      "resources": [
+        { "item": "SurtlingCore", "amount": 2 }
+      ]
+    },
+    {
+      "name": "Recipe_CharredBonesCharredRemainsTrophy",
+      "item": "TrophyCharredRemains_DoD",
+      "craftingStation": "piece_workbench",
+      "resources": [
+        { "item": "CharredBone_DoD", "amount": 10 }
+      ]
+    },
+    {
+      "name": "Recipe_FreezeGlandIceDrakeTrophy",
+      "item": "TrophyIceDrake_DoD",
+      "craftingStation": "piece_workbench",
+      "resources": [
+        { "item": "FreezeGland", "amount": 5 }
+      ]
+    },
+    {
+      "name": "Recipe_CoreIceGolemTrophy",
+      "item": "TrophyIceGolem_DoD",
+      "craftingStation": "piece_workbench",
+      "resources": [
+        { "item": "FrostlingCore_DoD", "amount": 2 }
+      ]
+    },
+    {
+      "name": "Recipe_FrozenBonesFrozenBonesTrophy",
+      "item": "TrophyFrozenBones_DoD",
+      "craftingStation": "piece_workbench",
+      "resources": [
+        { "item": "FrozenBone_DoD", "amount": 10 }
+      ]
+    },
+    {
+      "name": "Recipe_CoreFrostlingTrophy",
+      "item": "TrophyFrostling_DoD",
+      "craftingStation": "piece_workbench",
+      "resources": [
+        { "item": "FrostlingCore_DoD", "amount": 2 }
+      ]
+    },
+    {
+      "name": "Recipe_CoreStormlingTrophy",
+      "item": "TrophyStormling_DoD",
+      "craftingStation": "piece_workbench",
+      "resources": [
+        { "item": "StormlingCore_DoD", "amount": 2 }
+      ]
+    },
+    {
+      "name": "Recipe_CoreVoidlingTrophy",
+      "item": "TrophyVoidling_DoD",
+      "craftingStation": "piece_workbench",
+      "resources": [
+        { "item": "VoidlingCore_DoD", "amount": 2 }
+      ]
     }
   ]
 }
