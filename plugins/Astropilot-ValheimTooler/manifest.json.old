@@ -1,0 +1,9 @@
+{
+  "name": "ValheimTooler",
+  "version_number": "1.4.0",
+  "website_url": "https://github.com/Astropilot/ValheimTooler",
+  "description": "A fancy cheats mod for the Valheim game.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.1600"
+  ]
+}
